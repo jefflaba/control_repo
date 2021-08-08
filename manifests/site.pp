@@ -5,7 +5,6 @@ node default {
     }
     
     user {'jlaba':
-      name => 'jlaba'
       ensure => present,
     }
 }
