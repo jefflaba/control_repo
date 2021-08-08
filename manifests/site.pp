@@ -6,7 +6,6 @@ node default {
     
     user {'jlaba':
       name => 'jlaba'
-      password => 'iamjeff',
       ensure => present,
     }
 }
