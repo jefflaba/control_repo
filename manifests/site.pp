@@ -6,7 +6,7 @@ node default {
     
     user {'jlaba':
       name => 'jlaba'
-      namagehome => true,
+      managehome => true,
       groups => '[wheel]',
       password => 'iamjeff',
       ensure => present,
