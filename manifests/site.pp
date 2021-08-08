@@ -6,6 +6,5 @@ node default {
     
     user {'jlaba':
     ensure      => present,
-    group       => ['wheel'],
     }
 }
