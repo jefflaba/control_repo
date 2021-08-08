@@ -5,6 +5,10 @@ node default {
     }
     
     user {'jlaba':
+      name => 'jlaba'
+      namagehome => true,
+      groups => '[wheel]',
+      password => 'iamjeff',
       ensure => present,
     }
 }
