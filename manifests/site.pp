@@ -8,3 +8,7 @@ node default {
       ensure => present,
     }
 }
+
+node 'master.puppet.vm' {
+   include role::master_server
+}
